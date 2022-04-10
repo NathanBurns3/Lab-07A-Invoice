@@ -1,24 +1,24 @@
-public class Data {
+public class InvoiceOrderData {
 
     private String address;
     private String item;
     private int qty;
     private double price;
 
-    public Data(String address, String item, int qty, double price) {
+    public InvoiceOrderData(String address, String item, int qty, double price) {
         this.address = address;
         this.item = item;
         this.qty = qty;
         this.price = price;
     }
 
-    public Data(String item, int qty, double price) {
+    public InvoiceOrderData(String item, int qty, double price) {
         this.item = item;
         this.qty = qty;
         this.price = price;
     }
 
-    public Data(String address) {
+    public InvoiceOrderData(String address) {
         this.address = address;
     }
 
